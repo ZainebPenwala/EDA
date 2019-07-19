@@ -96,7 +96,7 @@ print(p1,'%')
 
 ## Percentage of males and females from every Dept who were admitted and rejected
 
-? for male and  female admitted in dept A
+# for male and  female admitted in dept A
 a='Admitted'
 c='Male'
 z='A'.o
@@ -123,8 +123,7 @@ p1=p1.round(3)
 print(p1,'%')
 
 
-
-? male and female rejected in dept A
+#  male and female rejected in dept A
 #to find the total male rejected students
 b='Rejected'
 c='Male'
