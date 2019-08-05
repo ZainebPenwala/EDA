@@ -18,6 +18,7 @@ p1=(total_admit['Freq'].sum())/(data['Freq'].sum())*100
 p1=p1.round(3)
 print(p1,'%')
 
+
 #to find the total rejected students
 b='Rejected'
 total_reject=data[data['Admit']==b]
@@ -60,8 +61,6 @@ p1=p1.round(3)
 print(p1,'%')
 
 
-
-
 Part 2: percentage of male and female rejected
 #to find the total male rejected students
 b='Rejected'
@@ -87,11 +86,6 @@ print(total_reject['Freq'].sum())
 p1=(total_reject['Freq'].sum())/(data['Freq'].sum())*100
 p1=p1.round(3)
 print(p1,'%')
-
-
-
-
-
 
 
 ## Percentage of males and females from every Dept who were admitted and rejected
